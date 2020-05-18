@@ -86,12 +86,14 @@ font-weight: bold;
 
 #work .full-width {
 	padding: 156px;
-	background-color: #f9ceB7;
 	overflow: auto;
-	text-align: center;
-	
-
+	text-align: center;	
 }
+
+#work {
+	background-color: #f9ceB7;
+}	
+	
 #work .h3 {	
     color:#2b2b2b;
 	font-family: 'Source San Pro', sans-serif;
@@ -99,9 +101,9 @@ font-weight: bold;
 	font-weight: bold;
 	line-height: 32px;
 	width: 100%;
-	margin: 0 auto;
-			
+	margin: 0 auto;			
 }
+
 #work .p {
 	color:#2b2b2b;
 	font-family: 'Lora', sans-serif;
@@ -110,17 +112,22 @@ font-weight: bold;
 	width: 100%;
 	margin: 0 auto;	
 	overflow: auto;
+}
 
-}	
 #work .img {
 	padding-bottom: 30px;
 }
+
 /*****CONTACT*****/
 
 #contact .full-width {
 	background-color: #ebebeb;
 	overflow: auto;
 	padding: 110px;	
+}
+
+#contact {
+   background-color: #ebebeb; 
 }
 
 #contact img#contact-img{
@@ -131,39 +138,46 @@ font-weight: bold;
 #contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
     padding-left: 115px;
 }
+
 #contact #envelope {
     padding: 0 10px 0 115px;
-}	
+}
+
 #contact h2 {
     font-family: Lora;
     font-size: 36px;
     line-height: 44px;
-
 }
+
 #contact #email-header{
     font-size: 32px;
     font-weight: lighter;
     line-height: 44px;
     margin: -30px 0 5px 0;
 }
+
 #contact #socialmedia-header {
     font-weight: bold;
     font-size: 29px;
     line-height: 44px;
     margin: 40px 0 0 0;
 }
+
 #contact a {
     text-decoration: none;
     color: #c49075;
     font-weight: bold;
     font-size: 28px;
 }
+
 #contact ul {
     list-style: none;
 }
+
 #contact ul li {
      display: inline-block;
 }
+
 #contact ul img {
     font-size: 32px;
     padding-right: 48px;
